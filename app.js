@@ -1,7 +1,7 @@
 var app = angular.module('app', []);
 
 app.controller('IndexCtrl', function($scope) {
-    $scope.hi = 'hello';
+    $scope.hi = 'hi';
 
     $scope.todos = [
         {
